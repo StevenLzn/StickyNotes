@@ -11,3 +11,170 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.board-title{
+  display: inline-block;
+  width: 45%;
+}
+
+.board-button{
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  padding: 1.5%;
+  margin-left: 1%;
+  width: 36px;
+  height: 36px;
+  background: #0099ff;
+  color: black;
+}
+
+.note{  
+  display: inline-block;
+  width: 32%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-left: 1%;
+  margin-bottom: 2%;
+  background: #66c2ff;
+}
+
+.note-title-container{
+  padding: 2%;
+  background: #0099ff;
+  border-bottom: 1px solid black;
+}
+
+.note-title {
+  display: inline-block;
+  width: 65%;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: #0099ff;
+  color: black;
+}
+
+.note-toolbar{
+  display: inline-block;
+  text-align: right;
+  width: 35%;
+  color: black;
+}
+
+.icon-toolbar{
+  margin-left: 1%;
+}
+
+.note-date{
+  display: inline-block;
+  margin: 0;
+  font-size: 12px;
+}
+
+.note-toolbar-remove{
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.note-toolbar-options{
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.note-content{
+  width: 96%;
+  height: 150px;
+  border: none;
+  resize: none;
+  margin-left: 3%;
+  margin-top: 3%;
+  background: #66c2ff;
+  color: #1f2e2e;
+}
+
+.select {
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.select, .note-date, .note-toolbar-remove {
+  line-height: 20px;
+  height:20px;
+  margin: 0px;
+  vertical-align: middle;
+  margin-right: 3%;
+}
+
+.option-blue-title {
+  background: #0099ff;
+}
+
+.option-blue-content {
+  background: #66c2ff;
+}
+
+.option-red-title {
+  background: #ff3333;
+}
+
+.option-red-content {
+  background: #ff8080;
+}
+
+.option-gray-title {
+  background: #4d4d4d;
+}
+
+.option-gray-content {
+  background: #8c8c8c;
+}
+
+.option-green-title {
+  background: #47d147;
+}
+
+.option-green-content {
+  background: #85e085;
+}
+
+.option-purple-title {
+  background: #884dff;
+}
+
+.option-purple-content {
+  background: #aa80ff;
+}
+
+.select ul li.option {
+  width: 12px;
+  height: 10px;
+  list-style: none;
+}
+
+.select ul.closed li.option {
+  display: none;
+}
+
+.option-display {
+  width: 22px;
+  height: 18px;
+  list-style: none;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+.option-display-none {
+  display: none;
+}
+
+.select ul.closed li:first-child {
+  display: block;
+}
+
+.select ul li {
+  cursor: default;
+}
